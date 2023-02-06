@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("https://i.gifer.com/28Kb.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page .container {
+  background-image: url("https://wallpapercave.com/wp/wp4829298.jpg");
+  border: 2px solid black;
+  display: flex;
+  width: 30rem;
+  height: 40rem;
+  border-radius: 10px;
+  color: white;
+  flex-direction: column;
+}
+.page .container .myinfos {
+  height: 45%;
+  display: flex;
+  gap: 10px 20px;
+  padding-right: 10px;
+}
+.page .container .myinfos .myphoto {
+  height: 90%;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.page .container .myinfos .texts {
+  font-family: "Chakra Petch", sans-serif;
+}
+.page .container .myinfos .texts #name {
+  font-family: "Lilita One", cursive;
+  font-size: 20px;
+  padding: 10px;
+}
+.page .container .myinfos .texts #student {
+  font-family: "Varela Round", sans-serif;
+}
+.page .container .myinfos .texts #aboutme {
+  font-size: 11px;
+}
+.page .container #mylinks-text {
+  text-align: center;
+}
+.page .container .links {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page .container .links button {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.04;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=style.css.map */
