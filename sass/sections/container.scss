@@ -1,0 +1,12 @@
+@use "../variables/images.scss";
+
+.container {
+  background-image: images.$container-background;
+  border: 2px solid black;
+  display: flex;
+  width: 30rem;
+  height: 40rem;
+  border-radius: 10px;
+  color: white;
+  flex-direction: column;
+}

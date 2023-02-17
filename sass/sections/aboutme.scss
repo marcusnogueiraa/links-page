@@ -1,0 +1,48 @@
+.myinfos {
+  height: 45%;
+  display: flex;
+  gap: 10px 20px;
+  padding-right: 10px;
+  flex-direction: column;
+
+  .headsection {
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    height: 70%;
+    align-items: center;
+
+    .myphoto {
+      height: 90%;
+      width: auto;
+      border-radius: 50%;
+      padding-top: 10px;
+      padding-left: 30px;
+    }
+    .titles{
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-left: 15px;
+      #name {
+        font-family: "Lilita One", cursive;
+        font-size: 20px;
+        padding: 10px;
+      }
+  
+      #student {
+        font-family: "Varela Round", sans-serif;
+      }
+    }
+  }
+
+  #aboutme {
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 15px;
+  }
+}

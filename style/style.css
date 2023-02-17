@@ -14,7 +14,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.page .container {
+
+.container {
   background-image: url("https://wallpapercave.com/wp/wp4829298.jpg");
   border: 2px solid black;
   display: flex;
@@ -24,53 +25,75 @@
   color: white;
   flex-direction: column;
 }
-.page .container .myinfos {
+
+.myinfos {
   height: 45%;
   display: flex;
   gap: 10px 20px;
   padding-right: 10px;
+  flex-direction: column;
 }
-.page .container .myinfos .myphoto {
+.myinfos .headsection {
+  font-family: "Chakra Petch", sans-serif;
+  display: flex;
+  height: 70%;
+  align-items: center;
+}
+.myinfos .headsection .myphoto {
   height: 90%;
+  width: auto;
   border-radius: 50%;
   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 0px;
+  padding-left: 30px;
 }
-.page .container .myinfos .texts {
-  font-family: "Chakra Petch", sans-serif;
+.myinfos .headsection .titles {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
 }
-.page .container .myinfos .texts #name {
+.myinfos .headsection .titles #name {
   font-family: "Lilita One", cursive;
   font-size: 20px;
   padding: 10px;
 }
-.page .container .myinfos .texts #student {
+.myinfos .headsection .titles #student {
   font-family: "Varela Round", sans-serif;
 }
-.page .container .myinfos .texts #aboutme {
-  font-size: 11px;
-}
-.page .container #mylinks-text {
+.myinfos #aboutme {
+  font-family: "Kanit", sans-serif;
+  font-size: 12px;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 15px;
 }
-.page .container .links {
+
+#mylinks-text {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.links {
   gap: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.page .container .links button {
+.links .btn {
   background-color: transparent;
   color: white;
   padding: 10px;
-  width: 80%;
+  width: 300px;
   border: 2px solid black;
   border-radius: 4px;
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   scale: 1.04;
   transition: 0.5s;
 }
