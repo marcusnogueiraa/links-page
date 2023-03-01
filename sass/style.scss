@@ -1,11 +1,11 @@
 // Page Section
-@use "./sections/page.scss";
+@import "./sections/page.scss";
 
 // Container Section
-@use "./sections/container.scss";
+@import "./sections/container.scss";
 
 // Aboutme on Container Section
-@use "./sections/aboutme.scss";
+@import "./sections/aboutme.scss";
 
 // Links on Container Section
-@use "./sections/links.scss";
+@import "./sections/links.scss";
